@@ -1,0 +1,10 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Variable files
+terraform.tfvars
+
+# IDE / Editor
+.vscode/
