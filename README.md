@@ -20,23 +20,7 @@ Using Terraform, this project deploys the following Azure resources:
 - 🌐 Virtual Network (VNet)  
 - 📶 Subnets  
 - 📊 Azure Log Analytics Workspace  
-- 🏷️ Resource tagging for governance
-
----
-
-## 📁 Repository Structure
-
-```text
-terraform-azure-lab/
-│
-├── main.tf                 # Azure resources definition
-├── provider.tf             # Azure provider configuration
-├── variables.tf            # Input variables
-├── terraform.tfvars        # Variable values (gitignored)
-├── outputs.tf              # Terraform outputs
-├── .terraform.lock.hcl     # Provider version lock file
-├── .gitignore              # Git exclusions
-└── README.md               # Project documentation
+- 🏷️ Resource tagging for governance  
 
 ---
 
@@ -87,6 +71,23 @@ terraform apply
 ## 🧹 Cleanup
 ```bash
 terraform destroy
+```
+
+---
+
+## 📁 Repository Structure
+
+```text
+terraform-azure-lab/
+│
+├── main.tf                 # Azure resources definition
+├── provider.tf             # Azure provider configuration
+├── variables.tf            # Input variables
+├── terraform.tfvars        # Variable values (gitignored)
+├── outputs.tf              # Terraform outputs
+├── .terraform.lock.hcl     # Provider version lock file
+├── .gitignore              # Git exclusions
+└── README.md               # Project documentation
 ```
 
 ---
